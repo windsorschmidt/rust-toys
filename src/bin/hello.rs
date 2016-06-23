@@ -1,3 +1,5 @@
+extern crate rust_toys; // hypens to underscores
+
 /// Prints a welcome message.
 ///
 /// # A Heading
@@ -5,7 +7,7 @@
 /// written in Markdown, so we can have *bold* and **italic** text, etc.
 ///
 pub fn main() {
-    println!("Hello, world!");
+    rust_toys::greet();
 }
 
 #[cfg(test)]
