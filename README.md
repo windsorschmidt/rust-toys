@@ -1,2 +1,2 @@
 # rust-toys
-Rust Exercises and Notes
+Throw-away code to help me learn Rust.
